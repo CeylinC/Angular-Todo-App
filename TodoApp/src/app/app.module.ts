@@ -3,14 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TodosComponent } from './pages/todos/todos.component';
+import { TodoListComponent } from './pages/todo-list/todo-list.component';
 import { TodoAddComponent } from './pages/todo-add/todo-add.component';
 import { TodoUpdateComponent } from './pages/todo-update/todo-update.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodosComponent,
+    TodoListComponent,
     TodoAddComponent,
     TodoUpdateComponent
   ],
