@@ -1,5 +1,5 @@
 export const environment = {
     production: true,
-    baseUrl: 'https://todoapi:7001'
+    baseUrl: 'https://localhost:7001'
   };
   

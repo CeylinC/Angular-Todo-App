@@ -39,7 +39,7 @@ export class TodoService {
   }
 
   isCompleted(id: number){
-    return this.http.put<Response>(`${this.baseUrl}/api/todos/${id}`, {}, {observe: 'response'}).pipe(map(
+    return this.http.put<Response>(`${this.baseUrl}/api/todos/iscompleted/${id}`, {}, {observe: 'response'}).pipe(map(
       response => response.status == 204
     ))
   }
